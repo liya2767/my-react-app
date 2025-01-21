@@ -1,0 +1,68 @@
+div{
+  margin-top: -10px;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+  padding-top: -100px;
+}
+
+/* Form title styling */
+h5 {
+  margin-top: -100px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field styling */
+input,
+textarea,
+select {
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 5px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+/* Textarea resizing */
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button styling */
+button {
+  width: 95%;
+  padding: 5px;
+  background-color: #5b99db;
+  color: white;
+  border: none;
+  font-size: 11px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Select field styling */
+select {
+  cursor: pointer;
+}
+
+/* Focus styles */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+p{
+  font-size: 13px;
+}
